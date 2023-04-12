@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sqlcmd</title>
+    <style>
+        body{background-color:rgb(226, 233, 234)}
+        h2{color: blue;}
+    </style>
+    <link rel="stylesheet" href="/css/stylesheet2.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">TutorialSheet</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#SERVICES">SERVICES</a></li>
+                <li><a href="/webpages/sql_history.html">TUTORIALS</a></li>
+                <!-- <li><a href="#CONTACT US">CONTACT US</a></li> -->
+            </ul>
+        </div>
+    </div>
+    <h2>SQL Commands </h2>
+       <h4> -SQL commands are instructions. It is used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data. <br>
+        -	SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission for users.</h4> <br>
+      <h2> Types of SQL Commands</h2>
+<h3>There are five types of SQL commands:</h3> 
+ DDL, DML, DCL, TCL, and DQL.
+<h2>1. Data Definition Language (DDL)</h2>
+o	DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+o	All the command of DDL are auto-committed that means it permanently save all the changes in the database.
+<h2>Here some commands that come under DDL:</h2> <br>
+o	CREATE <br>
+o	ALTER <br>
+o	DROP <br>
+o	TRUNCATE <br>
+a. CREATE It is used to create a new table in the database.
+ new table in the database. <br>
+<img src="/images/create.jpg" alt="">
+ <br>
+b.ALTER: It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> -->
+ <img src="/images/altr - Copy.jpg" alt="">
+ <br>
+c. DROP: It is used to delete both the structure and record stored in the table. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+<img src="" alt="">
+<h2>2. Data Manipulation Language</h2>
+o	DML commands are used to modify the database. It is responsible for all form of changes in the database. <br>
+o	The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback. <br>
+<h2>Here are some commands that come under DML:</h2>
+o	INSERT <br>
+a. INSERT: The INSERT statement is a SQL query. It is used to insert data into the row of a table. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+o	UPDATE <br>
+b. UPDATE: This command is used to update or modify the value of a column in the table. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+<img src="/images/update.jpg" alt="">
+o	DELETE <br>
+c. DELETE: It is used to remove database or table. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+<img src="/images/dlt database.jpg" alt="">
+<img src="/images/dlt table.jpg" alt="">
+<h2>4. Transaction Control Language</h2>
+TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only. <br>
+These operations are automatically committed in the database that's why they cannot be used while creating tables or dropping them. <br>
+Here are some commands that come under TCL:
+o	COMMIT <br>
+a. Commit: Commit command is used to save all the transactions to the database. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+o	ROLLBACK <br>
+b. Rollback: Rollback command is used to undo transactions that have not already been saved to the database. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+<h2>5. Data Query Language</h2>
+DQL is used to fetch the data from the database.
+It uses only one command:
+o	SELECT
+a. SELECT: This is the same as the projection operation of relational algebra. It is used to select the attribute based on the condition described by WHERE clause. <br>
+<!-- <iframe src="F:\html\Screenshot (2).png" height="300" width="800"></iframe> <br> -->
+<img src="/images/slct.jpg" alt="">
+<img src="/images/slct.jpg" alt="">
+</body>
+</html>
